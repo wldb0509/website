@@ -1,0 +1,37 @@
+/*헤더시작*/
+#header{
+	background: #0C1015;
+	padding: 30px 0;
+}
+#header h1{
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-right: 700px;
+}
+#header h1 img{
+	width: 100%;
+}
+
+.gnb{}
+.gnb li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.gnb li a{
+	color: #fff;
+}
+
+
+/*footer*/
+
+#footer{
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
