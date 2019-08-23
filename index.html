@@ -3,13 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>김지유 포트폴리오</title>
-			<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
+		
+		<script src="https://code.jquery.com/jquery1.12.4.min.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="css/default.css">
 		<link rel="stylesheet" type="text/css" href="css/include.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
-	
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".contentsList").slick({
+				dots:true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScrolls:1,
+			   	prevArrow:'<i class="fas fa-arrow-circle-left prevBtn"></i>',
+                nextArrow:'<i class="fas fa-arrow-circle-right nextBtn"></i>'
+				});
+			})
+		</script>
+		
 	</head>
 	<body>
 	<!--전체시작-->
@@ -123,7 +137,55 @@
 								</div>
 							</div>
 						</li>
-					</ul>						
+					</ul>
+					
+					<ul class="contentsList2">
+						<li class="contents2_1">
+							<img src="images/contents2_1.png" alt="contents2_1 이미지">
+							<div class="contentsText2">
+								<p>할리스 홈페이지</p>
+								<div class="moreBtn">
+									<a href="#">
+										상세보기
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="contents2_2">
+							<img src="images/contents2_2.png" alt="contents2_2 이미지">
+							<div class="contentsText2">
+								<p>할리스 홈페이지</p>
+								<div class="moreBtn">
+									<a href="#">
+										상세보기
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="contents2_3">
+							<img src="images/contents2_3.png" alt="contents2_3 이미지">
+							<div class="contentsText2">
+								<p>할리스 홈페이지</p>
+								<div class="moreBtn">
+									<a href="#">
+										상세보기
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="contents2_4">
+							<img src="images/contents2_4.png" alt="contents2_4 이미지">
+							<div class="contentsText2">
+								<p>할리스 홈페이지</p>
+								<div class="moreBtn">
+									<a href="#">
+										상세보기
+									</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
 				</div>
 			</div>
 		
@@ -179,22 +241,22 @@
 					
 					<ul class="snsIcon">
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/profile.php?id=100005072853769" target="_blank">
 								<img src="images/snsIcon01.png" alt="sns이미지1">
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/jiyu4228/" target="_blank">
 								<img src="images/snsIcon02.png" alt="sns이미지2">
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://blog.naver.com/ekwl0509" target="_blank">
 								<img src="images/snsIcon03.png" alt="sns이미지3">
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="https://twitter.com/ekwl0509" target="_blank">
 								<img src="images/snsIcon04.png" alt="sns이미지4">
 							</a>
 						</li>
